@@ -1,0 +1,34 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Lab6", "Lab6\Lab6.csproj", "{D8BF1AA8-CF16-4564-BDAE-E62BF18B6882}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Zepol GUI", "Zepol GUI\Zepol GUI.csproj", "{01D1A47B-9509-4F20-87A8-F2DA78504513}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UnitTestProject1", "UnitTestProject1\UnitTestProject1.csproj", "{D5E142ED-5F00-4F1F-820F-0A20D4D233AD}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{D8BF1AA8-CF16-4564-BDAE-E62BF18B6882}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D8BF1AA8-CF16-4564-BDAE-E62BF18B6882}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D8BF1AA8-CF16-4564-BDAE-E62BF18B6882}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D8BF1AA8-CF16-4564-BDAE-E62BF18B6882}.Release|Any CPU.Build.0 = Release|Any CPU
+		{01D1A47B-9509-4F20-87A8-F2DA78504513}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{01D1A47B-9509-4F20-87A8-F2DA78504513}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{01D1A47B-9509-4F20-87A8-F2DA78504513}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{01D1A47B-9509-4F20-87A8-F2DA78504513}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D5E142ED-5F00-4F1F-820F-0A20D4D233AD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D5E142ED-5F00-4F1F-820F-0A20D4D233AD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D5E142ED-5F00-4F1F-820F-0A20D4D233AD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D5E142ED-5F00-4F1F-820F-0A20D4D233AD}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,20 @@
+﻿<Window x:Class="Zepol_GUI.OknowWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Zepol_GUI"
+        mc:Ignorable="d"
+        Title="OknowWindow" Height="234.783" Width="300">
+    <Grid>
+        <Label x:Name="Pesel" Content="Pesel&#xD;&#xA;" HorizontalAlignment="Left" Margin="22,19,0,0" VerticalAlignment="Top" Width="60" Height="30"/>
+        <Label x:Name="Imie" Content="Imię" HorizontalAlignment="Left" Margin="22,49,0,0" VerticalAlignment="Top" Width="60"/>
+        <Label x:Name="Nazwisko" Content="Nazwisko" HorizontalAlignment="Left" Margin="22,80,0,0" VerticalAlignment="Top"/>
+        <Label x:Name="DataUr" Content="DataUr" HorizontalAlignment="Left" Margin="22,111,0,0" VerticalAlignment="Top" Width="60"/>
+        <TextBox x:Name="textBox_Imie" HorizontalAlignment="Left" Height="22" Margin="120,53,0,0" TextWrapping="Wrap" Text="TextBox" VerticalAlignment="Top" Width="125" TextChanged="textBox_Imie_TextChanged"/>
+        <TextBox x:Name="textBox_Nazwisko" HorizontalAlignment="Left" Height="22" Margin="120,84,0,0" TextWrapping="Wrap" Text="TextBox" VerticalAlignment="Top" Width="125" TextChanged="textBox_Nazwisko_TextChanged"/>
+        <TextBox x:Name="textBox_DataUr" HorizontalAlignment="Left" Height="22" Margin="120,115,0,0" TextWrapping="Wrap" Text="TextBox" VerticalAlignment="Top" Width="125" TextChanged="textBox_DataUr_TextChanged"/>
+        <Button x:Name="Zatwierdz" Content="Zatwierdź" HorizontalAlignment="Left" Margin="105,155,0,0" VerticalAlignment="Top" Width="75" Click="Zatwierdz_Click"/>
+        <TextBox x:Name="textBox_Pesel" HorizontalAlignment="Left" Height="24" Margin="120,19,0,0" TextWrapping="Wrap" Text="TextBox" VerticalAlignment="Top" Width="125" TextChanged="textBox_Pesel_TextChanged"/>
+    </Grid>
+</Window>
